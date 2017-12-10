@@ -1,0 +1,19 @@
+{
+  "name": "crypto-challenges",
+  "version": "1.0.0",
+  "description": "The Cryptopals Crypto Challenges done in NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "1-1": "node ./solutions/set1/challenge1/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoshuaPirie/crypto-challenges.git"
+  },
+  "author": "JoshuaPirie",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/JoshuaPirie/crypto-challenges/issues"
+  },
+  "homepage": "https://github.com/JoshuaPirie/crypto-challenges#readme"
+}
