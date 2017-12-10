@@ -3,7 +3,7 @@ let alphabet = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ ";
 let maxScore = 0;
 let maxStr = "";
 
-for(let i = 64; i < 127; i++) {
+for(let i = 32; i < 127; i++) {
     let testBuf = new Buffer(String.fromCharCode(i).repeat(input.length), "ascii");
     let outputStr = xor(input, testBuf).toString("ascii");
     let res = score(outputStr);
