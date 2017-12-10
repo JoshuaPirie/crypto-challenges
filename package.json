@@ -4,7 +4,8 @@
   "description": "The Cryptopals Crypto Challenges done in NodeJS",
   "main": "index.js",
   "scripts": {
-    "1-1": "node ./solutions/set1/challenge1/main.js"
+    "1-1": "node ./solutions/set1/challenge1.js",
+    "1-2": "node ./solutions/set1/challenge2.js"
   },
   "repository": {
     "type": "git",
