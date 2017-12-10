@@ -4,7 +4,7 @@ console.log(xor(inputA, inputB).toString("hex"));
 
 function xor(bufA, bufB) {
     let output = Buffer.allocUnsafe(bufA.length);
-    for(var i = 0; i < bufA.length; i++)
+    for(let i = 0; i < bufA.length; i++)
         output[i] = bufA[i] ^ bufB[i];
     return output;
 }
